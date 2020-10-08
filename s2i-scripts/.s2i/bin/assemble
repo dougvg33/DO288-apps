@@ -16,6 +16,8 @@ DATE=`date "+%F, %H:%M %p"`
 
 echo "Today is $DATE - Vini vidi vici" >> ./info.html
 
+touch mail.py
+
 ######## CUSTOMIZATION ENDS HERE ############
 
 if [ -d ./httpd-cfg ]; then
